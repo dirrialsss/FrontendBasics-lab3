@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1px 30px;
+  background: #e1c6c6;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 40%;
+}
+
+.navigation {
+  text-align: center;
+  padding: 20px 60px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 15px 26px;
+  background: #855d88;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background: #527e53;
+}
+
+.float-container, 
+.flex-container {
+  width: 55%;
+  margin: 20px auto;
+  border: 2px solid #999;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.float-header, 
+.flex-header {
+  background: #66a3ff;
+  text-align: center;
+  padding: 30px;
+}
+
+.float-subheader, 
+.flex-subheader {
+  background: #ffb3e6;
+  text-align: center;
+  padding: 25px;
+}
+
+.float-left, 
+.float-right,
+.flex-left, 
+.flex-right {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-left,
+.flex-left {
+  background: #b4d975;
+}
+
+.float-right,
+.flex-right {
+  background: #5c8652;
+}
+
+/* Float */
+.float-content {
+  overflow: hidden;
+}
+
+.float-left {
+  float: left;
+  width: 75%;
+}
+
+.float-right {
+  float: left;
+  width: 25%;
+}
+
+/* Flex */
+.flex-content {
+  display: flex;
+}
+
+.flex-left {
+  flex: 3;
+}
+
+.flex-right {
+  flex: 1;
+}
