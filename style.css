@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 1px 30px;
+  padding: 1px 20px;
   background: #e1c6c6;
 }
 
@@ -10,7 +10,7 @@ h1, h3 {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
   text-align: center;
 }
 
